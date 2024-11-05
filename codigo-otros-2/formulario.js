@@ -68,8 +68,6 @@ formulario.onsubmit = function (e) {
 
   let i = naField.selectedIndex
   let nacionalidad = naField.options[i].value
-  console.log(nombre, edad)
-  console.log(nacionalidad)
 
   if (nombre.length === 0) {
     nameField.classList.add(classError)
